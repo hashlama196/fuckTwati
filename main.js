@@ -4,7 +4,7 @@ var cors = require('cors')
 var app = express()
 
 app.use(cors())
-const port = 3000 | process.env.port;
+const port = 3000 | process.env.PORT;
 
 app.get('/', (req, res) => res.send('Still cant upload your app?'))
 
